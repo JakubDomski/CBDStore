@@ -1,0 +1,42 @@
+
+.container{
+    width:100%;
+    height:20vh;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+
+
+
+}
+.img{
+}
+.content{
+    display: flex;
+
+
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:2vw;
+}
+.list{
+    list-style: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+.info{
+    margin-right:2vw;
+}
+.help{
+    margin-right:2vw;
+}
+.listElement{
+    text-align:center;
+}
+.heading{
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}

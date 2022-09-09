@@ -1,0 +1,35 @@
+.container{
+    margin: 10vh 0;
+    height:80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+.surveyContainer{
+    height:50vh;
+    width:70vh;
+    /* From https://css.glass */
+    background: rgba(109, 109, 109, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    z-index:3;
+}
+}
+
+.imgBong{
+    position:absolute;
+    bottom:0;
+    left:15vw;
+    z-index:1;
+}
+.imgLicense{
+    position:absolute;
+    top:0;
+    right:15vw;
+    z-index:1;
+}

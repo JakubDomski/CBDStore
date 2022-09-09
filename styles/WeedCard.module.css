@@ -1,0 +1,40 @@
+
+.container {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.title {
+    font-size:3vw;
+    font-weight: bold;
+    color: black;
+}
+.price {
+    font-weight: bold;
+    color: #666;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:2vw;
+}
+.desc {
+    text-align: center;
+    color: #777;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:2vw;
+}
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        font-size:10vw;
+    }
+    .price,
+    .desc {
+        font-size: 4vw;
+    }
+}
